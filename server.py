@@ -13,7 +13,7 @@ def predict(Glucose,Bp,Insulin,BMI):
         return 'Diabetes. Take Treatements....'
     
 def main():
-    st.title("Diabetes Prediction")
+    st.title("Diabetes Prediction Tool")
     html_temp = """
     <div style="background-color:red;padding:20px">
     <h2 style="color:white;text-align:center;">Streamlit Diabetes Predictor </h2>
