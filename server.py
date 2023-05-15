@@ -25,7 +25,7 @@ def main():
     Insulin = st.text_input("Insulin","Type Here")
     BMI = st.text_input("BMI","Type Here")
     result=""
-    if st.button("Predict"):
+    if st.button("Predict the result"):
         result=predict(Glucose,Bp,Insulin,BMI)
         st.success('You Have {}'.format(result))
     if st.button("About"):
